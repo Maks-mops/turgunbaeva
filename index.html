@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Aigerim Turgunbaeva — Independent journalist covering media repression, human rights, and press freedom in Central Asia.">
+    <title>Aigerim Turgunbaeva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__inner">
+            <a href="#" class="header__logo">Aigerim Turgunbaeva</a>
+            <nav class="header__nav" id="nav">
+                <a href="#about" class="header__nav-link">About</a>
+                <a href="#publications" class="header__nav-link">Publications</a>
+                <a href="#research" class="header__nav-link">Research</a>
+                <a href="#media" class="header__nav-link">Media</a>
+                <a href="#contact" class="header__nav-link">Contact</a>
+            </nav>
+            <button class="header__menu-btn" id="menuBtn" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- Kyrgyz Geometric Ornament - Left Side Only -->
+        <div class="ornament" aria-hidden="true">
+            <svg viewBox="0 0 60 800" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                <!-- Strict geometric pattern: diamonds, arrows, angular lines -->
+
+                <!-- Module 1: Diamond with inner diamond -->
+                <polygon points="30,20 45,40 30,60 15,40" />
+                <polygon points="30,30 38,40 30,50 22,40" fill="none" stroke="currentColor" stroke-width="2" />
+
+                <!-- Connector: Arrow down -->
+                <line x1="30" y1="60" x2="30" y2="80" stroke="currentColor" stroke-width="2" />
+                <polygon points="30,80 25,70 35,70" />
+
+                <!-- Module 2: Large diamond -->
+                <polygon points="30,90 50,120 30,150 10,120" />
+                <polygon points="30,105 40,120 30,135 20,120" fill="none" stroke="currentColor" stroke-width="2" />
+                <rect x="26" y="116" width="8" height="8" />
+
+                <!-- Connector: Double chevron -->
+                <polyline points="20,160 30,170 40,160" fill="none" stroke="currentColor" stroke-width="2" />
+                <polyline points="20,175 30,185 40,175" fill="none" stroke="currentColor" stroke-width="2" />
+
+                <!-- Module 3: Stacked diamonds -->
+                <polygon points="30,200 42,215 30,230 18,215" />
+                <line x1="30" y1="230" x2="30" y2="245" stroke="currentColor" stroke-width="2" />
+                <polygon points="30,245 42,260 30,275 18,260" />
+
+                <!-- Connector: Vertical line with diamond -->
+                <line x1="30" y1="275" x2="30" y2="295" stroke="currentColor" stroke-width="2" />
+                <polygon points="30,295 35,305 30,315 25,305" />
+                <line x1="30" y1="315" x2="30" y2="335" stroke="currentColor" stroke-width="2" />
+
+                <!-- Module 4: Large diamond with extensions -->
+                <polygon points="30,345 52,380 30,415 8,380" />
+                <polygon points="30,360 42,380 30,400 18,380" fill="none" stroke="currentColor" stroke-width="2" />
+                <rect x="26" y="376" width="8" height="8" />
+                <!-- Side extensions -->
+                <line x1="8" y1="380" x2="0" y2="375" stroke="currentColor" stroke-width="2" />
+                <line x1="8" y1="380" x2="0" y2="385" stroke="currentColor" stroke-width="2" />
+                <line x1="52" y1="380" x2="60" y2="375" stroke="currentColor" stroke-width="2" />
+                <line x1="52" y1="380" x2="60" y2="385" stroke="currentColor" stroke-width="2" />
+
+                <!-- Connector: Triple chevron -->
+                <polyline points="18,425 30,437 42,425" fill="none" stroke="currentColor" stroke-width="2" />
+                <polyline points="18,440 30,452 42,440" fill="none" stroke="currentColor" stroke-width="2" />
+                <polyline points="18,455 30,467 42,455" fill="none" stroke="currentColor" stroke-width="2" />
+
+                <!-- Module 5: Diamond -->
+                <polygon points="30,480 45,500 30,520 15,500" />
+                <polygon points="30,490 38,500 30,510 22,500" fill="none" stroke="currentColor" stroke-width="2" />
+
+                <!-- Connector -->
+                <line x1="30" y1="520" x2="30" y2="545" stroke="currentColor" stroke-width="2" />
+                <polygon points="30,545 25,535 35,535" />
+
+                <!-- Module 6: Large diamond -->
+                <polygon points="30,555 50,585 30,615 10,585" />
+                <polygon points="30,570 40,585 30,600 20,585" fill="none" stroke="currentColor" stroke-width="2" />
+                <rect x="26" y="581" width="8" height="8" />
+
+                <!-- Connector: Double chevron -->
+                <polyline points="20,625 30,635 40,625" fill="none" stroke="currentColor" stroke-width="2" />
+                <polyline points="20,640 30,650 40,640" fill="none" stroke="currentColor" stroke-width="2" />
+
+                <!-- Module 7: Stacked diamonds -->
+                <polygon points="30,665 42,680 30,695 18,680" />
+                <line x1="30" y1="695" x2="30" y2="710" stroke="currentColor" stroke-width="2" />
+                <polygon points="30,710 42,725 30,740 18,725" />
+
+                <!-- Final connector -->
+                <line x1="30" y1="740" x2="30" y2="760" stroke="currentColor" stroke-width="2" />
+                <polygon points="30,770 38,780 30,790 22,780" />
+            </svg>
+        </div>
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__name">
+                    <span>Aigerim</span>
+                    <span>Turgunbaeva</span>
+                </h1>
+                <p class="hero__title">
+                    Independent journalist covering media repression, human rights, and press freedom
+                    in Central Asia. Reuters contributor. Words in The Diplomat, Al Jazeera, The Guardian.
+                </p>
+                <div class="hero__actions">
+                    <a href="#publications" class="btn btn--primary">Publications</a>
+                    <a href="#contact" class="btn btn--secondary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="section" id="publications">
+        <div class="container">
+            <div class="section__header reveal">
+                <p class="section__label">Selected Publications</p>
+                <h2>Recent Work</h2>
+            </div>
+            <ul class="publications__list">
+                <li class="publication reveal">
+                    <div class="publication__meta">
+                        <span class="publication__source">The Diplomat</span>
+                        <span class="publication__date">January 2026</span>
+                    </div>
+                    <h3 class="publication__title">Central Asia's New Horizons: Between East and West</h3>
+                    <p class="publication__excerpt">
+                        An analysis of Central Asia's geopolitical transformation and the role of smaller states
+                        in shaping the emerging international order.
+                    </p>
+                    <a href="#" class="publication__link">Read</a>
+                </li>
+                <li class="publication reveal">
+                    <div class="publication__meta">
+                        <span class="publication__source">Carnegie Endowment</span>
+                        <span class="publication__date">December 2025</span>
+                    </div>
+                    <h3 class="publication__title">Energy Transit: Challenges and Opportunities for Kazakhstan</h3>
+                    <p class="publication__excerpt">
+                        Examining the country's strategic position in the context of global energy transition
+                        and diversification of export routes.
+                    </p>
+                    <a href="#" class="publication__link">Read</a>
+                </li>
+                <li class="publication reveal">
+                    <div class="publication__meta">
+                        <span class="publication__source">Foreign Affairs</span>
+                        <span class="publication__date">October 2025</span>
+                    </div>
+                    <h3 class="publication__title">Digital Sovereignty in the Post-Soviet Space</h3>
+                    <p class="publication__excerpt">
+                        A comparative analysis of regional approaches to digital infrastructure regulation
+                        and data protection.
+                    </p>
+                    <a href="#" class="publication__link">Read</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section class="section" id="research">
+        <div class="container">
+            <div class="section__header reveal">
+                <p class="section__label">Research</p>
+                <h2>Areas of Focus</h2>
+            </div>
+            <ul class="publications__list">
+                <li class="publication">
+                    <div class="publication__meta">
+                        <span class="publication__source">Current Project</span>
+                        <span class="publication__date">2025–2026</span>
+                    </div>
+                    <h3 class="publication__title">Economic Integration in Central Asia</h3>
+                    <p class="publication__excerpt">
+                        A comprehensive study of barriers and drivers of regional economic integration
+                        amid shifting geopolitical dynamics.
+                    </p>
+                </li>
+                <li class="publication">
+                    <div class="publication__meta">
+                        <span class="publication__source">Completed Project</span>
+                        <span class="publication__date">2024</span>
+                    </div>
+                    <h3 class="publication__title">Media Landscape and Public Opinion</h3>
+                    <p class="publication__excerpt">
+                        Analysis of media consumption transformation and public opinion formation
+                        in the digital age.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about__layout reveal">
+                <div class="about__image-wrapper">
+                    <img src="aigerim-photo.jpg" alt="Aigerim Turgunbaeva" class="about__image">
+                </div>
+                <div class="about__essay">
+                    <p>
+                        Independent journalist with 10+ years covering media repression, human rights,
+                        political transformation, and press freedom in Central Asia.
+                    </p>
+                    <p>
+                        Reuters contributor since 2021. Words in The Diplomat, Al Jazeera,
+                        The Guardian, Eurasianet, Global Voices, The National Interest, and CABAR.asia.
+                    </p>
+                    <p>
+                        Specialized in investigative and data-driven reporting on "legalized repression,"
+                        authoritarian trends, and independent media survival under legal and political pressure.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Section -->
+    <section class="section" id="media">
+        <div class="container">
+            <div class="section__header reveal">
+                <p class="section__label">Media</p>
+                <h2>Speaking & Interviews</h2>
+            </div>
+            <ul class="publications__list">
+                <li class="publication reveal">
+                    <div class="publication__meta">
+                        <span class="publication__source">BBC World Service</span>
+                        <span class="publication__date">December 2025</span>
+                    </div>
+                    <h3 class="publication__title">Central Asia in 2026: Forecasts and Expectations</h3>
+                    <p class="publication__excerpt">
+                        Expert commentary on regional political and economic outlook
+                        for the coming year.
+                    </p>
+                    <a href="#" class="publication__link">Listen</a>
+                </li>
+                <li class="publication reveal">
+                    <div class="publication__meta">
+                        <span class="publication__source">Al Jazeera English</span>
+                        <span class="publication__date">November 2025</span>
+                    </div>
+                    <h3 class="publication__title">Energy Security and Climate Commitments</h3>
+                    <p class="publication__excerpt">
+                        Discussion on balancing economic development with environmental responsibility
+                        across the region.
+                    </p>
+                    <a href="#" class="publication__link">Watch</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="contact__layout">
+                <!-- Main Content: Top Left -->
+                <div class="contact__main reveal">
+                    <p class="section__label">Contact</p>
+                    <h2 class="contact__title">Get in Touch</h2>
+                    <p class="contact__intro">
+                        Available for collaboration, expert commentary,<br>
+                        and research projects.
+                    </p>
+                </div>
+
+                <!-- All Contacts: Right Side -->
+                <div class="contact__links">
+                    <a href="mailto:turgunbaeva.aigi@gmail.com" class="contact__link">
+                        <svg class="contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path
+                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                        <span>turgunbaeva.aigi@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/aigiturgunbaeva/" class="contact__link" target="_blank"
+                        rel="noopener">
+                        <svg class="contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 6a2 2 0 100-4 2 2 0 000 4z" />
+                        </svg>
+                        <span>linkedin.com/in/aigiturgunbaeva</span>
+                    </a>
+                    <a href="tel:+996700257565" class="contact__link">
+                        <svg class="contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path
+                                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                        </svg>
+                        <span>+996 700 25 75 65</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p class="footer__copyright">© 2026 Aigerim Turgunbaeva</p>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const nav = document.getElementById('nav');
+
+        menuBtn.addEventListener('click', () => {
+            nav.classList.toggle('is-open');
+        });
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('.header__nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('is-open');
+            });
+        });
+    </script>
+
+    <!-- Smooth Scroll -->
+    <script src="smooth-scroll.js"></script>
+
+</body>
+
+</html>
